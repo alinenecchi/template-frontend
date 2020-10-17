@@ -26,13 +26,13 @@ header{
  }
 
  .img-banner{
-  margin-top: -70px;
-  margin-left: -250px;
-  padding-bottom: 500px;
-  filter: brightness(100%);
-  filter: contrast(100%);
-  height:560px;
-  width: 120%;
+    margin-top: -70px;
+    margin-left: -280px;
+    padding-bottom: 500px;
+    filter: brightness(100%);
+    filter: contrast(100%);
+    height:560px;
+    width: 120%;
  }
 
 /* The sidebar menu */
@@ -67,8 +67,8 @@ header{
 
 .sidebar .closebtn {
   position: absolute;
-  top: -100px;
-  font-size: 56px;
+  top: -20px;
+  font-size: 66px;
   font-weight: bold;
   opacity: 1;
   padding-left: 10px;
@@ -76,7 +76,7 @@ header{
 }
 
 .openbtn {
-  position: absolute;
+  position: fixed;
   font-size: 60px;
   cursor: pointer;
   background-color: #000000;
@@ -104,7 +104,7 @@ header{
 
 
 .slideshow-container {
-  max-width: 1000px;
+  width: auto;
   position: absolute;
   margin: auto;
   left: 500px;
@@ -113,37 +113,52 @@ header{
 }
 
 .mySlides {
-  display: none;
   padding-left: 245px;
   padding-bottom: 400px;
   padding-top: 300px;
-  width: 1424px;
-  height: 59px;
-
 }
 
-.prev, .next {
+.img-button1 {
+  background: #000000;
+}
+.img-button1:hover {
+  background: #717171;
+}
+.img-button1{
   cursor: pointer;
   position: absolute;
-  width: auto;
-  margin-top: 60px;
-  padding: 80px;
-  color: #f2f2f2;
-  font-weight: bold;
-  font-size: 20px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+  width: 30px;
+  background: no-repeat;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  color: #ffffff;
+  background-color: #000000;
+  margin-left: 245px;
+  bottom: -30px;
 }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+.img-button2 {
+  background: #000000;
+}
+.img-button2:hover {
+  background: #2e2c2c;
 }
 
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.img-button2{
+  cursor: pointer;
+  position: absolute;
+  width: 30px;
+  background: no-repeat;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  bottom: -30px;
+  color: #ffffff;
+  background-color: #000000;
+  margin-left: 325px;
 }
 
 .text {
@@ -153,12 +168,34 @@ header{
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  width: 520px;
-  height: 470px;
   text-align: center;
   left: -300px;
   top: 600px;
-  border-radius: 2px 2px 2px 2px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.img-carousel-1{
+  position: absolute;
+  text-align: center;
+  width: 724px;
+  height: 459px;
+  bottom: 7px;
+}
+
+.img-carousel-2{
+  position: absolute;
+  text-align: center;
+  width: 724px;
+  height: 459px;
+  bottom: 7px;
+}
+
+.img-carousel-3{
+  position: absolute;
+  text-align: center;
+  width: 724px;
+  height: 459px;
+  bottom: 7px;
 }
 
 .numbertext {
@@ -174,12 +211,19 @@ header{
   height: 15px;
   width: 155px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #000000;
   border-radius: 50%;
 }
 
 .active, .dot:hover {
   background-color: #717171;
+}
+
+.slideshow-container{
+  width: auto;
+  margin-left: 400px;
+  margin-bottom: -100px;
+  
 }
 
 @-webkit-keyframes fade {
