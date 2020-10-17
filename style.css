@@ -217,32 +217,19 @@ header{
   bottom: 7px;
 }
 
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 155px;
-  margin: 0 2px;
   background-color: #000000;
-  border-radius: 50%;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #FFC502;
 }
 
 .slideshow-container{
   width: auto;
   margin-left: 400px;
-  margin-bottom: -100px;
-  
+  margin-bottom: -100px; 
 }
 
 @-webkit-keyframes fade {
