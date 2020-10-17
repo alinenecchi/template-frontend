@@ -1,6 +1,6 @@
 * {
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
 }
 
 .img-logo {
@@ -34,6 +34,25 @@ header{
     height:560px;
     width: 120%;
  }
+
+ .div-title{
+   width: 100%;
+   position: absolute; 
+   top: 180px;
+   text-align: center;
+   padding-left: 180px;
+   padding-right: 200px;
+ }
+ .style-title{
+  left: -300px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 72px;
+  margin-right: 1000px;
+ }
+ 
+
 
 /* The sidebar menu */
 .sidebar {
