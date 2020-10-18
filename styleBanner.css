@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #FFC502;
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+  }
+  
+/* The sidebar menu */
+.sidebar {
+    width: 0; 
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 1600px;
+    background-color:#FFC502;
+    overflow-x: hidden; 
+    padding-top: 100px; 
+    transition: 0.2s;
+    z-index: 2; 
+  
+  }
+  
+  .sidebar a {
+    padding: 27px 27px 27px 60px;
+    text-decoration: none;
+    font-size: 27px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+    left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  .sidebar a:hover {
+    color: #f2f2f2;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: -20px;
+    font-size: 66px;
+    font-weight: bold;
+    opacity: 1;
+    padding-left: 10px;
+    padding-top: 30px;
+  }
+  
+  .openbtn {
+    position: fixed;
+    font-size: 60px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px 5px;
+    border: none;
+    margin-left: 1300px;
+    margin-top: -25px;
+  }
+  
+  .openbtn:hover {
+    background-color: #000000;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+    top:10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  
+  .slideshow-container {
+    position: fixed;
+    margin: auto;
+    left: 580px;
+    bottom: 100px;
+    padding-top: 450px;
+    z-index: 1;
+  }
+  
+  .mySlides {
+    padding-left: 245px;
+    padding-bottom: 400px;
+    padding-top: 80px;
+  }
+  
+  .img-button1 {
+    background: #000000;
+  }
+  .img-button1:hover {
+    background: #717171;
+  }
+  .img-button1{
+    cursor: pointer;
+    position: absolute;
+    width: 30px;
+    background: no-repeat;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    background-color: #000000;
+    margin-left: 87px;
+    bottom: 10px;
+  }
+  
+  .img-button2 {
+    background: #000000;
+  }
+  .img-button2:hover {
+    background: #2e2c2c;
+  }
+  
+  .img-button2{
+    cursor: pointer;
+    position: absolute;
+    width: 30px;
+    background: no-repeat;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    bottom: 10px;
+    color: #ffffff;
+    background-color: #000000;
+    margin-left: 166px;
+  }
+  
+  .text {
+    background: #ffffff;
+    color: #000000;
+    font-size: 25px;
+    padding: 8px 12px;
+    position: absolute;
+    left: -660px;
+    top: 400px;
+    border-radius: 5px 5px 5px 5px;
+    width: 724px;
+    height: 470px;
+    opacity: 1;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  
+  h2{
+    font-size: 30px;
+    text-align: left;
+    margin: 20px;
+    margin-left: 100px;
+  }
+  p{
+    font-size: 22px;
+    text-align: left;
+    margin-left: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .img-text{
+    position: static;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  .img-text-3{
+    position: static;
+    font-size: 140px;
+    margin-left: 100px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .img-carousel-1{
+    position: absolute;
+    text-align: center;
+    height: 350px;
+    width: 1224px;
+    left: -100px;
+    top: 350px;
+  }
+  
+  .img-carousel-2{
+    position: absolute;
+    text-align: center;
+    height: 350px;
+    width: 1224px;
+    left: -100px;
+    top: 350px;
+  }
+  .img-carousel-3{
+    position: absolute;
+    text-align: center;
+    height: 350px;
+    width: 1224px;
+    left: -100px;
+    top: 350px;
+  }
+  
+  .slideshow-container{
+    width: auto;
+    margin-left: 400px;
+    margin-bottom: -100px; 
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  .dot{
+    cursor: pointer;
+    height: 15px;
+    width: 25px;
+    margin: 0 2px;
+    background-color:#000000;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  
+  .active, .dot:hover {
+    background-color: #FFC502;
+    width: 45px;
+  }
+  .dot-1{
+    left: 30px;
+  }
+  .dot-2{
+    left: 30px;
+  }
+  
+  .footer-end {
+    background-color: #FF8A5B;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;   
+    padding: 40px 0 40px 200px;
+    margin-top: 600px;
+  }
+  .footer{
+    background-color: #FFC502;
+    position: fixed;
+    width: 100%;
+    height: 40%;
+    left: 0;
+    bottom: 0;
+    justify-content: space-around;   
+    padding: 40px 0 40px 200px;
+    margin-top: 60px;
+    display: flex;
+    z-index: 0;
+  }
+  
