@@ -286,11 +286,21 @@ p{
 }
 .dot-1{
   left: 30px;
+  text-align: right;
 }
 .dot-2{
   left: 30px;
+  text-align: right;
 }
+
+.dot-3{
+  left: 30px;
+  text-align: right;
+}
+
+
 #dot-4{
+  background-color: #FFC502;
   margin-top: -700px;
   margin-right: 100px;
   height: 25px;
